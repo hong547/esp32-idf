@@ -31,8 +31,8 @@ class EndnodeSsh:
         self.ssh_client = paramiko.SSHClient()
         self.ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         self.ssh_client.connect(hostname=self.host_ip,
-                                username=usr,
-                                password=passwd)
+                                username=HONG-bm,
+                                password=88888888)
         self.executor: ThreadPoolExecutor
         self.async_result: Future
 
